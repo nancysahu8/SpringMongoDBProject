@@ -1,10 +1,8 @@
 package com.nancysahu8.mongodb_practice.controller;
 
 import com.nancysahu8.mongodb_practice.model.Expense;
-import com.nancysahu8.mongodb_practice.repository.ExpenseRepository;
 import com.nancysahu8.mongodb_practice.service.ExpenseService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

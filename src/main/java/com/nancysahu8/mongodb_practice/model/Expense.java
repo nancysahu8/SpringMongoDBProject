@@ -19,6 +19,10 @@ public class Expense {
     @Field(name = "amount")
     private BigDecimal expenseAmount;
 
+    public Expense() {
+
+    }
+
     public String getId() {
         return id;
     }
